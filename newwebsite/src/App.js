@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Landing from './components/landing';
+import Header from './components/Header';
+import MyNavbar from './components/Navbar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <Landing/>
+       <Header/>
+       <MyNavbar sticky="bottom"/>
       </div>
     );
   }

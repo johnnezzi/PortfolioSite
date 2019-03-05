@@ -6,3 +6,10 @@
 .text {
   margin: auto;
 }
+
+.myPic {
+  margin-top: 20px;
+  height: 400px;
+  width: auto;
+
+}
