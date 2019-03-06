@@ -1,3 +1,8 @@
+.techstack {
+  padding-bottom: 8em;
+  padding-top: 5em;
+}
+
 .stack-container {
   display:flex;
   flex-direction: row;
