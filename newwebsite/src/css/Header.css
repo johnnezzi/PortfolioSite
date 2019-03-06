@@ -5,9 +5,11 @@
 
 .text {
   margin: auto;
+  margin-bottom: 5em;
 }
 
 .myPic {
+  padding-top: 55px;
   margin: 55px;
   height: 400px;
   width: auto;

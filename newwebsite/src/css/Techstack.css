@@ -1,0 +1,15 @@
+.stack-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-header {
+  margin-bottom: 2em;
+
+}
+
+.header {
+  margin-bottom: 1em;
+}
+

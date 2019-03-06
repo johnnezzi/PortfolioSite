@@ -1,3 +1,13 @@
 .aboutme {
-  margin: 55px;
+  padding-bottom: 8em;
+  padding-top: 5em;
+}
+
+.spaced {
+  margin-bottom: 3em;  
+}
+
+.spaced-top {
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
