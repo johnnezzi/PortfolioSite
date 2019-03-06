@@ -14,6 +14,7 @@ export default class MyNavbar extends React.Component {
         <Nav className="navbar navbar-expand-sm navbar-light bg-light" >
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#home">About</Nav.Link>
+        <Nav.Link href="#home">Tech Stack</Nav.Link>
         <Nav.Link href="#home">Portfolio</Nav.Link>
         <Nav.Link href="#link">Contact</Nav.Link>
       <NavDropdown title="Links" id="basic-nav-dropdown">
