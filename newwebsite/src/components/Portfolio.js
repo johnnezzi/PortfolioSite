@@ -32,12 +32,12 @@ class Portfolio extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div className='main' >
         <h2> Portfolio </h2>
-        <Slider {...settings}>
+        <Slider {...settings} >
           {this.state.pieces.map(piece => (
             <div>
-              <img src={piece.image} alt=""/>
+               <a href=""><img src={piece.image} alt=""/></a> <p>{piece.description}</p>
             </div>
             
           ))}
