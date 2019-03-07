@@ -6,7 +6,7 @@ const Techstack = () => {
     <div id='techstack'className='techstack' >
       <h2 className='top-header' >TechStack</h2>
       <div className='stack-container'>
-        <div >
+        <div className='header'>
           <h4 className='header' >Languages</h4>
           <p>Javascript</p>
           <p>Node.js</p>

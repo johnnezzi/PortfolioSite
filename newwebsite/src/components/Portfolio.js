@@ -37,7 +37,7 @@ class Portfolio extends Component {
         <Slider className='slider' {...settings} >
           {this.state.pieces.map(piece => (
             <div>
-               <a href={piece.link}><img className='images' src={piece.image} alt="Portfolio Pic"/></a> <p>{piece.description}</p>
+               <a href={piece.link}><img className='images' src={piece.image} alt="Portfolio Pic"/></a> <p className='description'>{piece.description}</p>
             </div>
             
           ))}
