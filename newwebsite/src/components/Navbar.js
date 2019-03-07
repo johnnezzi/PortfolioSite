@@ -79,7 +79,6 @@ export default class MyNavbar extends React.Component {
       <NavDropdown title="Links" id="basic-nav-dropdown">
         <NavDropdown.Item href="https://twitter.com/NezziJohn">Twitter</NavDropdown.Item>
         <NavDropdown.Item href="https://github.com/johnnezzi">GitHub</NavDropdown.Item>
-        <NavDropdown.Divider />
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>
