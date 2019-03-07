@@ -1,33 +1,52 @@
 import React, { Component } from 'react';
+import JSNewsIMG from '../assets/JSNews.jpg'
+import CTIMG from '../assets/Crimetime.jpg'
+import '../css/Portfolio.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 class Portfolio extends Component {
   state = { 
-    pieces: {
-      1: {
+    pieces: [
+      {
         title: "JSN News",
         description: "Full stack Reddit style news aggregation website. Restful API built with NodeJS, ExpressJS, Knex, PostgreSQL and front end built in React",
         link: "https: //jsnews.netlify.com/",
-        image: {JSNewsIMG}
+        image: JSNewsIMG
         },
-      2: {
-        title: "Music analyser",
-        description: "An app built using pair programing. A site which takes a user input song and analyses it using IBM Watson API and the returns that analysis to the user.",
-        link: "test link",
-        image: {MAIMG}
-      },
-      3: {
+      {
         title: "Crimetime",
         descritption: " lsnlsakdnlasndla lslasn khfaks fuksnbf kjdshf kjdsfkjkdheueryoiuen,m  lnmlksdfhuhe ldfoue kjdclknsfou ldlsfnjhsdsfldf",
         link: "test link",
-        image: {CTIMG}
+        image: CTIMG
       }
-    }
+    ]
    }
-  render() { 
-    return ( 
-
-     );
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+    return (
+      <div>
+        <h2> Portfolio </h2>
+        <Slider {...settings}>
+          {this.state.pieces.map(piece => (
+            <div>
+              <img src={piece.image} alt=""/>
+            </div>
+            
+          ))}
+        </Slider>
+      </div>
+    );
   }
-}
+
+  }
+
  
 export default Portfolio;
