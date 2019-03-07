@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class MyNavbar extends React.Component {
 
@@ -12,16 +13,73 @@ export default class MyNavbar extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar navbar-expand-sm navbar-light bg-light" >
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#home">About</Nav.Link>
-        <Nav.Link href="#home">Tech Stack</Nav.Link>
-        <Nav.Link href="#home">Portfolio</Nav.Link>
-        <Nav.Link href="#link">Contact</Nav.Link>
+
+        
+        <Nav.Link>
+          <Link 
+            activeClass="active"
+            to="top"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+          >
+          Home
+          </Link>
+        </Nav.Link>
+        <Nav.Link>
+          <Link 
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+          >
+          About
+          </Link>
+        </Nav.Link>
+        <Nav.Link>
+          <Link 
+            activeClass="active"
+            to="techstack"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+          >
+          Tech Stack
+          </Link>
+        </Nav.Link>
+        <Nav.Link>
+          <Link 
+            activeClass="active"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+          >
+          Portfolio
+          </Link>
+        </Nav.Link>
+        <Nav.Link>
+          <Link 
+            activeClass="active"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}
+          >
+          Contact
+          </Link> 
+        </Nav.Link>
+
       <NavDropdown title="Links" id="basic-nav-dropdown">
         <NavDropdown.Item href="https://twitter.com/NezziJohn">Twitter</NavDropdown.Item>
         <NavDropdown.Item href="https://github.com/johnnezzi">GitHub</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>

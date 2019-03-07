@@ -12,7 +12,7 @@ class Portfolio extends Component {
       {
         title: "JSN News",
         description: "Full stack Reddit style news aggregation website. Restful API built with NodeJS, ExpressJS, Knex, PostgreSQL and front end built in React",
-        link: "https: //jsnews.netlify.com/",
+        link: "https://jsnews.netlify.com/",
         image: JSNewsIMG
         },
       {
@@ -32,12 +32,12 @@ class Portfolio extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className='main' >
-        <h2> Portfolio </h2>
-        <Slider {...settings} >
+      <div id="portfolio" className='main' >
+        <h2 className='header'> Portfolio </h2>
+        <Slider className='slider' {...settings} >
           {this.state.pieces.map(piece => (
             <div>
-               <a href=""><img src={piece.image} alt=""/></a> <p>{piece.description}</p>
+               <a href={piece.link}><img className='images' src={piece.image} alt="Portfolio Pic"/></a> <p>{piece.description}</p>
             </div>
             
           ))}

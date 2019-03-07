@@ -12,3 +12,14 @@
   display: inline-block;
   line-height: 100px;
 }
+
+.header {
+  margin-bottom: 3em;
+}
+
+.images {
+  margin-bottom: 1.5em;
+}
+.slider {
+  margin-bottom: 3em;
+}

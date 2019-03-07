@@ -4,7 +4,7 @@ import myPhoto from '../assets/JNezzi.jpg'
 
 const Header = () => {
   return ( 
-    <div className='landing'>
+    <div id='top' className='landing'>
       <div className='landingpage'>
         <img className='myPic' src={myPhoto} alt="A visual representation on me!"/>
         <h1>Hi, I'm John</h1>

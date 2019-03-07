@@ -3,7 +3,7 @@ import '../css/About.css'
 
 const About = () => {
   return ( 
-    <div className='aboutme'>
+    <div id="about" className='aboutme'>
       <h2 className='spaced'>About Me.....</h2>
       < p className = 'spaced-top' > In 2017 I wrote a
       function that printed "Hello World!"
