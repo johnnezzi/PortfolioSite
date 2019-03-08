@@ -3,7 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import { Link, animateScroll as scroll } from "react-scroll";
-import '../css/customnav.css'
 
 export default class MyNavbar extends React.Component {
 
@@ -13,7 +12,7 @@ export default class MyNavbar extends React.Component {
       <div className='mx-auto d-sm-flex d-block flex-sm-nowra'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar navbar-expand-sm navbar-dark bg-dark" >
+        <Nav className="forfont navbar navbar-expand-sm navbar-dark bg-dark" >
         <Nav.Link>
           <Link 
             activeClass="active" 
