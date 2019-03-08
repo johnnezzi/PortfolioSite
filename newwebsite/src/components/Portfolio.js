@@ -33,7 +33,7 @@ class Portfolio extends Component {
     };
     return (
       <div id="portfolio" className='main' >
-        <h2 className='header'> Portfolio </h2>
+        <h1 className='header'> Portfolio </h1>
         <Slider className='slider' {...settings} >
           {this.state.pieces.map(piece => (
             <div>

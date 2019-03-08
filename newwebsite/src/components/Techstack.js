@@ -4,7 +4,7 @@ import '../css/Techstack.css'
 const Techstack = () => {
   return ( 
     <div id='techstack'className='techstack' >
-      <h2 className='top-header' >TechStack</h2>
+      <h1 className='top-header' >TechStack</h1>
       <div className='stack-container'>
         <div className='header'>
           <h4 className='header' >Languages</h4>
