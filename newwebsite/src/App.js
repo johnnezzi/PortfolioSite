@@ -8,12 +8,15 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header/>
-        <MyNavbar/>
+        <div className='forfont'>
+          <MyNavbar/>
+        </div>
         <About/>
         <Techstack/>
         <Portfolio/>

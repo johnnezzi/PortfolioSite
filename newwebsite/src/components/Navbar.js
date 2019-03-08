@@ -3,28 +3,27 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import { Link, animateScroll as scroll } from "react-scroll";
+import '../css/customnav.css'
 
 export default class MyNavbar extends React.Component {
 
   render() {
     return (
-      <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar bg="dark" expand="lg" fixed="top" >
       <div className='mx-auto d-sm-flex d-block flex-sm-nowra'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar navbar-expand-sm navbar-light bg-light" >
-
-        
+        <Nav className="navbar navbar-expand-sm navbar-dark bg-dark" >
         <Nav.Link>
           <Link 
-            activeClass="active"
+            activeClass="active" 
             to="top"
             spy={true}
             smooth={true}
             offset={-70}
             duration= {500}
           >
-          Home
+          <span className='navfont'>Home</span> 
           </Link>
         </Nav.Link>
         <Nav.Link>
@@ -36,7 +35,7 @@ export default class MyNavbar extends React.Component {
             offset={-70}
             duration= {500}
           >
-          About
+          <span className = 'navfont'> About </span>
           </Link>
         </Nav.Link>
         <Nav.Link>
@@ -48,7 +47,7 @@ export default class MyNavbar extends React.Component {
             offset={-70}
             duration= {500}
           >
-          Tech Stack
+          <span className = 'navfont'> Tech Stack </span>
           </Link>
         </Nav.Link>
         <Nav.Link>
@@ -60,7 +59,7 @@ export default class MyNavbar extends React.Component {
             offset={-70}
             duration= {500}
           >
-          Portfolio
+          <span className = 'navfont'> Portfolio </span>
           </Link>
         </Nav.Link>
         <Nav.Link>
@@ -72,14 +71,14 @@ export default class MyNavbar extends React.Component {
             offset={-70}
             duration= {500}
           >
-          Contact
+          <span className = 'navfont'> Contact </span>
           </Link> 
         </Nav.Link>
 
-      <NavDropdown title="Links" id="basic-nav-dropdown">
+      {/* <NavDropdown  className="navfont" title="Links" id="basic-nav-dropdown">
         <NavDropdown.Item href="https://twitter.com/NezziJohn">Twitter</NavDropdown.Item>
         <NavDropdown.Item href="https://github.com/johnnezzi">GitHub</NavDropdown.Item>
-      </NavDropdown>
+      </NavDropdown> */}
     </Nav>
   </Navbar.Collapse>
   </div>
