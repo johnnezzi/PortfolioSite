@@ -18,3 +18,7 @@
 .description {
   margin-top: 0.5em;
 }
+
+a.menu_links {
+  cursor: pointer;
+}
