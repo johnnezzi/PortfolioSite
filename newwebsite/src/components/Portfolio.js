@@ -25,7 +25,7 @@ class Portfolio extends Component {
       {
         title: "Crimetime",
         description: "This is the first app I built in React.js, although simple in its front end, this excercise concentrated making requests to third party APIs (in this case the police crime database) and serving up the results ",
-        link: "test link",
+        link: "https://crimetime.netlify.com/",
         image: CTIMG
       }
     ]
@@ -41,10 +41,10 @@ class Portfolio extends Component {
     return (
       <div id="portfolio" className='main' >
         <h1 className='header'> Portfolio </h1>
-        <Slider className='slider' {...settings} >
+        <Slider id="pointer"className='slider' {...settings} >
           {this.state.pieces.map(piece => (
             <div>
-               <a className='menu-links' href={piece.link}><img className='images' src={piece.image} alt="Portfolio Pic"/></a> <p className='description'>{piece.description}</p>
+               <a href={piece.link}><img className='images tester' src={piece.image} alt="Portfolio Pic"/></a> <p className='description'>{piece.description}</p>
             </div>
             
           ))}
