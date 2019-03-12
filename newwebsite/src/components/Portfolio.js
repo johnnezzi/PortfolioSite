@@ -27,7 +27,7 @@ class Portfolio extends Component {
         description: "This is the first app I built in React.js, although simple in its front end, this excercise concentrated making requests to third party APIs (in this case the police crime database) and serving up the results ",
         link: "https://crimetime.netlify.com/",
         image: CTIMG
-      }
+      } 
     ]
    }
   render() {
