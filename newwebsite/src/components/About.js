@@ -5,12 +5,12 @@ const About = () => {
   return ( 
     <div id="about" className='aboutme'>
       <h1 className='headerspaced'>About Me.....</h1>
-      < p className = 'spaced-top aboutfont' > In 2017 I wrote a
-      function that printed "Hello World!"
-      to my screen...........I haven 't stopped writing functions since</p>
-      <p className='spaced aboutfont'>In 2018 I decided to leave my career in the banking industry to pursue this new obsession.</p>
-      <p className='spaced aboutfont'>Six months later.....here I am.... having completed Northcoders developer pathway bootcamp, a three month full time dedicated bootcamp.</p>
-      <p className='spaced aboutfont'>My other passions include my wife and three beautiful children, playing and coaching basketball, gaming and time on the bank with my fishing rods.</p>
+      <p className = 'spaced-top aboutfont' > An enthusiastic, versatile and ever improving software developer with a passion for creating innovative, smart and value delivering software. I pride myself on being a full stack developer, relish in the constant learning and push myself to keep improving by staying abreast of the latest technologies.
+          I have spent the last year working in the Fintech industry as a Junior Full Stack Dev where I have loved applying my skills and learning new ones.
+      </p>
+        <p className= 'spaced-top aboutfont'> When I'm not developing I am spending time with my family which includes my wife, three children, a dog(Icecube) and a cat(Cersei).
+        In the little spare time I have left, I love all things Tech, I am a long time gaming fans and love to get out and about either with the dog or fishing up and down banks all over the country.
+        </p>
     </div>
    );
 }
