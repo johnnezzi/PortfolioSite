@@ -12,12 +12,14 @@ const Techstack = () => {
           <p>Node.js</p>
           <p>HTML</p>
           <p>CSS</p>
+          <p>C#</p>
           <p>SQL</p>
         </div>
         <div className='header'>
           <h4 className='header' >Dev Tools</h4>
           <p>React</p>
           <p>React Native</p>
+          <p>AWS Cloud Services</p>
           <p>Expo</p>
           <p>Firebase</p>
           <p>PostgreSQL</p>
@@ -32,6 +34,7 @@ const Techstack = () => {
           <p>SuperTest</p>
           <p>Sinon</p>
           <p>Jest</p>
+          <p>NUnit</p>
         </div>
       </div>
     </div>
