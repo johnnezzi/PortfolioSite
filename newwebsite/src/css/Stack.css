@@ -1,0 +1,51 @@
+.aboutme{
+    background-color: #343a40;
+    color: #F7F7FF;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title{
+  margin-bottom: 1em;
+}
+.stacksection{
+    padding-top: 5rem;
+    height: 60%;
+}
+.stackcontainer {
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-rows: 10% 35% 10% 35% 10%;
+    padding-bottom: 8em;
+}
+
+.stack {
+    margin-bottom: 2.5em;
+ }
+
+.stack:hover {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.leftmost {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.innerleft{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.rightmost{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.inneright{
+    grid-column-start: 4;
+    grid-row-start: 4;
+}

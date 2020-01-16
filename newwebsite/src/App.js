@@ -4,6 +4,7 @@ import Header from './components/Header';
 import MyNavbar from './components/Navbar';
 import About from './components/About';
 import Techstack from './components/Techstack';
+import Stack from './components/Stack';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
@@ -18,7 +19,7 @@ class App extends Component {
           <MyNavbar/>
         </div>
         <About/>
-        <Techstack/>
+        <Stack/>
         <Portfolio/>
         <Contact/>
       </div>

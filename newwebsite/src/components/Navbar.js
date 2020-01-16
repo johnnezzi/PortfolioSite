@@ -40,10 +40,10 @@ export default class MyNavbar extends React.Component {
         <Nav.Link>
           <Link 
             activeClass="active"
-            to="techstack"
+            to="stack"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-300}
             duration= {500}
           >
           <span className = 'navfont'> Tech Stack </span>
